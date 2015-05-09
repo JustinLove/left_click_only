@@ -1,0 +1,22 @@
+{
+  "author": "wondible",
+  "build": "80462",
+  "category": ["in-game", "ui"],
+  "context": "client",
+  "date": "2015/05/03",
+  "dependencies": [
+    "com.wondible.pa.live_game_input_refactor"
+  ],
+  "description": "Left click does contextual actions while you have a selection, right click always cancels.",
+  "display_name": "Left Click Only",
+  "forum": null,
+  "identifier": "com.wondible.pa.left_click_only",
+  "priority": 100,
+  "scenes": {
+    "live_game": [
+      "coui://ui/mods/left_click_only/left_click_only.js"
+    ]
+  },
+  "signature": "not yet implemented",
+  "version": "0.1.0"
+}
